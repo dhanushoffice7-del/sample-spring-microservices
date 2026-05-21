@@ -1,4 +1,4 @@
-FROM eclipse-temurin:21-jre-alpine
+FROM amazoncorretto:21
 LABEL maintainer="piotrminkowski@gmail.com"
 RUN addgroup -S spring && adduser -S spring -G spring
 USER spring:spring
